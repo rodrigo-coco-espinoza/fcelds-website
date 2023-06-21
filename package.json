@@ -1,7 +1,6 @@
 {
   "name": "cmgm-website",
-  "homepage": "https://rodrigo-coco-espinoza.github.io/fcelds-website",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
