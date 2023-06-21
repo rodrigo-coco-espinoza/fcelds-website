@@ -1,12 +1,14 @@
 {
   "name": "cmgm-website",
-  "homepage": "https://rodrigo-coco-espinoza.github.io/fcelds-website",
+  "homepage": "https://rodrigo-coco-espinoza.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "main": "./src/main.jsx",
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
